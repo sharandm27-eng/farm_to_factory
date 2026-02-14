@@ -1,16 +1,74 @@
-# farm_to_factory
+# 🚜 KisanSetu – Farm to Factory Platform
 
-A new Flutter project.
+Farm to Factory is a Flutter-based mobile application that connects farmers directly with factories.  
+It enables transparent crop pricing, direct bidding, AI-based matching, and multi-language support.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 👨‍🌾 Farmer Side
+- Add crop listings
+- View factory offers
+- Check live market prices
+- Multi-language support (English, Telugu, Hindi, Kannada)
+- AI crop assistant
+- Dashboard with earnings and buyers overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🏭 Factory Side
+- View farmer listings
+- Place bids
+- Analytics dashboard
+- Market price trends
+- Track purchase history
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📊 Market Price Analytics
+
+- Price comparison (Mandi vs Factory)
+- Historical price graphs
+- Trend analysis
+- District-based pricing
+
+---
+
+## 🌐 Language Support
+
+Supported languages:
+- English
+- Telugu
+- Hindi
+- Kannada
+
+---
+
+## 🛠 Tech Stack
+
+- Flutter
+- Dart
+- Material UI
+- Navigator Routing
+- Git & GitHub
+
+---
+
+## 🚀 How to Run
+
+```bash
+flutter pub get
+flutter run
+
+lib/
+ ├── models/
+ ├── screens/
+ ├── widgets/
+ ├── utils/
+ └── main.dart
+
+Developed By
+Sharan.DM
+Shanmukha.ch
+Shaik Hunnurbee
+Sanjushree
+Flutter Developer
