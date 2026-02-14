@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../utils/app_text.dart';
 import '../utils/app_language.dart';
 import '../widgets/fullscreen_background.dart';
-import 'otp_login_screen.dart';
+import 'role_selection_screen.dart';   // ✅ Import Role Screen
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -12,10 +12,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+
   void continueApp(BuildContext context) {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => const OtpLoginScreen()),
+      MaterialPageRoute(
+        builder: (_) => const RoleSelectionScreen(), // ✅ Direct to Role Screen
+      ),
     );
   }
 
@@ -69,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                   const SizedBox(height: 24),
 
-                  // 🌐 SMALL LANGUAGE OPTIONS
+                  // 🌐 LANGUAGE OPTIONS
                   Wrap(
                     spacing: 16,
                     runSpacing: 16,
@@ -84,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                   const SizedBox(height: 40),
 
-                  // ▶ CONTINUE
+                  // ▶ CONTINUE BUTTON
                   SizedBox(
                     width: 220,
                     height: 52,

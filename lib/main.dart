@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+
 
 // FARMER SCREENS
 import 'screens/home_screen.dart';
@@ -15,9 +17,16 @@ import 'screens/factory_dashboard_screen.dart';
 import 'screens/factory_my_bids_screen.dart';
 import 'screens/factory_market_prices_screen.dart';
 
-void main() {
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

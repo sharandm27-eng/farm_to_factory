@@ -1,3 +1,14 @@
+plugins {
+    
+    id("org.jetbrains.kotlin.android")  apply false
+    id("com.google.gms.google-services")  apply false
+   
+    id("com.android.application") apply false
+    id("com.android.library")  apply false
+}
+
+
+
 allprojects {
     repositories {
         google()

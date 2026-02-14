@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152644406232",
+    "project_id": "farm-to-factory-8bd4d",
+    "storage_bucket": "farm-to-factory-8bd4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152644406232:android:fd61c373efe11d4dc2c0ad",
+        "android_client_info": {
+          "package_name": "com.example.farmtofactory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwxAG5WJrizGCPgLE-3g4v2G7WJn2b0aY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
