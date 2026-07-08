@@ -1,74 +1,157 @@
-# 🚜 KisanSetu – Farm to Factory Platform
+# 🌾 Farm to Factory
 
-Farm to Factory is a Flutter-based mobile application that connects farmers directly with factories.  
-It enables transparent crop pricing, direct bidding, AI-based matching, and multi-language support.
-
----
-
-## 🌟 Features
-
-### 👨‍🌾 Farmer Side
-- Add crop listings
-- View factory offers
-- Check live market prices
-- Multi-language support (English, Telugu, Hindi, Kannada)
-- AI crop assistant
-- Dashboard with earnings and buyers overview
-
-### 🏭 Factory Side
-- View farmer listings
-- Place bids
-- Analytics dashboard
-- Market price trends
-- Track purchase history
+A cross-platform Flutter application that connects **Farmers directly with Factories**, eliminating unnecessary middlemen and enabling transparent crop trading with multilingual support.
 
 ---
 
-## 📊 Market Price Analytics
+## 📖 Project Overview
 
-- Price comparison (Mandi vs Factory)
-- Historical price graphs
-- Trend analysis
-- District-based pricing
+Farm to Factory is a digital marketplace that allows farmers to list their crops and receive direct offers from factories. The platform provides role-based dashboards for both farmers and factories, helping farmers get better prices while enabling factories to procure crops efficiently.
+
+The application focuses on simplifying agricultural trade through an intuitive interface, multilingual accessibility, and transparent pricing.
 
 ---
 
-## 🌐 Language Support
+## 🚀 Features
 
-Supported languages:
-- English
-- Telugu
-- Hindi
-- Kannada
+### 👨‍🌾 Farmer
+- 🌱 Sell Crops
+- 📊 View Market Prices
+- 💰 Receive Factory Offers
+- 🤖 AI Assistant (MVP)
+- 📋 Manage Crop Listings
+- 🌐 Multi-language Support
+
+### 🏭 Factory
+- 🔍 Browse Available Crops
+- 💵 Place Bids
+- 📈 Market Price Analytics
+- 📊 Procurement Dashboard
+- 📋 Manage Bids
+
+### 🌍 General
+- Role-based Login
+- Responsive UI
+- Android & Web Support
+- Firebase Integration
+- Firebase Hosting
+- Modern Flutter UI
 
 ---
 
 ## 🛠 Tech Stack
 
-- Flutter
-- Dart
-- Material UI
-- Navigator Routing
-- Git & GitHub
+| Category | Technology |
+|----------|------------|
+| Frontend | Flutter |
+| Language | Dart |
+| Backend | Firebase |
+| Authentication | Firebase Authentication |
+| Database | Cloud Firestore |
+| Hosting | Firebase Hosting |
+| Version Control | Git & GitHub |
+| IDE | Visual Studio Code |
 
 ---
 
-## 🚀 How to Run
+## 📱 Screens
+
+- Home Screen
+- Language Selection
+- Role Selection
+- Farmer Dashboard
+- Sell Crop
+- Market Prices
+- Received Offers
+- AI Assistant (MVP)
+- Factory Dashboard
+- Available Crops
+- My Bids
+- Analytics
+
+---
+
+## 🌐 Deployment
+
+**Live Demo**
+
+https://farm-to-factory-8bd4d.web.app
+
+> **Note:** The web deployment is hosted on Firebase Hosting.
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│
+├── screens/
+├── widgets/
+├── utils/
+├── assets/
+│
+├── main.dart
+```
+
+---
+
+## ⚙ Installation
+
+Clone the repository
+https://github.com/sharandm27-eng/farm_to_factory/
+
+Navigate to the project
+
+```bash
+cd farm_to_factory
+```
+
+Install dependencies
 
 ```bash
 flutter pub get
+```
+
+Run the application
+
+```bash
 flutter run
+```
 
-lib/
- ├── models/
- ├── screens/
- ├── widgets/
- ├── utils/
- └── main.dart
+Run on Web
 
-Developed By
-Sharan.DM
-Shanmukha.ch
-Shaik Hunnurbee
-Sanjushree
-Flutter Developer
+```bash
+flutter run -d chrome
+```
+
+---
+
+## 🎯 Future Improvements
+
+- Real-time Crop Price API
+- Live AI Crop Recommendation
+- Online Payments
+- GPS-based Farmer Discovery
+- Factory Order Tracking
+- Push Notifications
+- Order History
+- Ratings & Reviews
+- Voice Commands
+- Image-based Crop Quality Detection
+
+---
+
+## 👨‍💻 Developed By
+
+**D. M. Sharan**
+
+B.Tech – CSE (AI & ML)
+
+Flutter Developer | AI Enthusiast
+
+---
+
+## 📜 License
+
+This project is developed for educational and demonstration purposes.
